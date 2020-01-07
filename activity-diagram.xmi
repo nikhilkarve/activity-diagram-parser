@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAFva7zOLr35GQc=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model"/>
+		<packagedElement xmi:id="AAAAAAFuT23ku39M5Hs=" name="Activity1" visibility="public" isReentrant="true" xmi:type="uml:Activity" isReadOnly="false" isSingleExecution="false">
+			<groups xmi:id="AAAAAAFuT3ATEn9RHGY=" name="User" visibility="public" xmi:type="uml:ActivityPartition">
+				<node xmi:id="AAAAAAFuT3Oj6n987I8=" name="InitialNode1" visibility="public" xmi:type="uml:InitialNode"/>
+				<node xmi:id="AAAAAAFuT3ULwn+ghQk=" name="Choose%20Account%20Type" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+				<node xmi:id="AAAAAAFuT3lJtX/J3FI=" name="DecisionNode2" visibility="public" xmi:type="uml:DecisionNode"/>
+				<node xmi:id="AAAAAAFuT3tgp4AY7m0=" name="Enter%20Amount" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+				<node xmi:id="AAAAAAFuT3vf4YAzfDs=" name="Enter%20Amount" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			</groups>
+			<groups xmi:id="AAAAAAFuT3JtjX9mmYQ=" name="ATM" visibility="public" xmi:type="uml:ActivityPartition"/>
+			<groups xmi:id="AAAAAAFuT3LbBn9w0ws=" name="Bank" visibility="public" xmi:type="uml:ActivityPartition"/>
+			<node xmi:id="AAAAAAFuT3QBZn+BrUM=" name="DecisionNode1" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAFuT30zKIBQr2Y=" name="DecisionNode2" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAFuT31Ci4BVnHQ=" name="DecisionNode3" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAFuT3+YfoCcVkk=" name="ActivityFinalNode1" visibility="public" xmi:type="uml:ActivityFinalNode"/>
+			<node xmi:id="AAAAAAFuT4Ase4C0j7A=" name="Amount%20Exceeds" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFuT4SPWoECjhU=" name="ActivityFinalNode2" visibility="public" xmi:type="uml:ActivityFinalNode"/>
+			<node xmi:id="AAAAAAFuT4VUEYEeZIc=" name="ActivityFinalNode3" visibility="public" xmi:type="uml:ActivityFinalNode"/>
+			<node xmi:id="AAAAAAFuT4hJ7YE6iwk=" name="Sufficient%20amount" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFuT45yF4F8ztk=" name="DecisionNode4" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAFuT47ekoGU/oI=" name="error%20msg" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFuT5CFMYHWCBQ=" name="Appropriate%20balance%20in%20account" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFuT5F6m4IDadU=" name="DecisionNode5" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAFuT5LuX4IthJY=" name="Update%20Amount" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFuT5RoxIJddkg=" name="Dispense%20Cash" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFuT5SvYIJ3bQQ=" name="Update%20ATM%20Log" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFuT5T09oKSRWU=" name="Print%20Receipt" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFuT5WGKoKwZUU=" name="ActivityFinalNode4" visibility="public" xmi:type="uml:ActivityFinalNode"/>
+			<edge xmi:id="AAAAAAFuT3TagX+Pb/Q=" visibility="public" source="AAAAAAFuT3Oj6n987I8=" target="AAAAAAFuT3QBZn+BrUM=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT3piZ3/RnEI=" visibility="public" source="AAAAAAFuT3Oj6n987I8=" target="AAAAAAFuT3Oj6n987I8=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT3qeyX/qMGs=" visibility="public" source="AAAAAAFuT3Oj6n987I8=" target="AAAAAAFuT3ULwn+ghQk=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT3r0hIAGJis=" visibility="public" source="AAAAAAFuT3ULwn+ghQk=" target="AAAAAAFuT3lJtX/J3FI=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT32e24BaaKw=" name="%5BSavings%20Account%5D" visibility="public" source="AAAAAAFuT3lJtX/J3FI=" target="AAAAAAFuT3tgp4AY7m0=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT35eKoBx7LY=" name="%5BChecking%20Account%5D" visibility="public" source="AAAAAAFuT3lJtX/J3FI=" target="AAAAAAFuT3vf4YAzfDs=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT39/NYCLFd8=" visibility="public" source="AAAAAAFuT3tgp4AY7m0=" target="AAAAAAFuT30zKIBQr2Y=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT3+xrIChcug=" name="%5BCancel%5D" visibility="public" source="AAAAAAFuT30zKIBQr2Y=" target="AAAAAAFuT3+YfoCcVkk=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT4BjXYDOkMw=" name="%5Bamt%20more%20than%2010000%5D" visibility="public" source="AAAAAAFuT30zKIBQr2Y=" target="AAAAAAFuT4Ase4C0j7A=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT4RxZYDxbJk=" visibility="public" source="AAAAAAFuT3vf4YAzfDs=" target="AAAAAAFuT31Ci4BVnHQ=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT4SmsYEHA78=" name="%5BCancel%5D" visibility="public" source="AAAAAAFuT31Ci4BVnHQ=" target="AAAAAAFuT4SPWoECjhU=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT4WiuYEjdeE=" visibility="public" source="AAAAAAFuT4Ase4C0j7A=" target="AAAAAAFuT4VUEYEeZIc=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT42NioFUsPQ=" name="Withdraw" visibility="public" source="AAAAAAFuT31Ci4BVnHQ=" target="AAAAAAFuT4hJ7YE6iwk=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT43lIIFogFY=" name="amt%20greather%20than%2010000" visibility="public" source="AAAAAAFuT30zKIBQr2Y=" target="AAAAAAFuT4hJ7YE6iwk=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT46T3YGC+k8=" visibility="public" source="AAAAAAFuT4hJ7YE6iwk=" target="AAAAAAFuT45yF4F8ztk=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT48rcYGvU54=" name="Invalid" visibility="public" source="AAAAAAFuT45yF4F8ztk=" target="AAAAAAFuT47ekoGU/oI=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT4/FyIHCVGY=" visibility="public" source="AAAAAAFuT47ekoGU/oI=" target="AAAAAAFuT3ULwn+ghQk=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT5Ehj4HxJoc=" name="Valid" visibility="public" source="AAAAAAFuT45yF4F8ztk=" target="AAAAAAFuT5CFMYHWCBQ=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT5GY/IIIfZY=" visibility="public" source="AAAAAAFuT5CFMYHWCBQ=" target="AAAAAAFuT5F6m4IDadU=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT5JeuoIbDEQ=" name="amt%20greater%20than%20bal" visibility="public" source="AAAAAAFuT5F6m4IDadU=" target="AAAAAAFuT47ekoGU/oI=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT5OS9IJJQOg=" name="amt%20less%20than%20bal" visibility="public" source="AAAAAAFuT5F6m4IDadU=" target="AAAAAAFuT5LuX4IthJY=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT5YI5IK2Ekg=" visibility="public" source="AAAAAAFuT5RoxIJddkg=" target="AAAAAAFuT5SvYIJ3bQQ=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT5Y1MoLHm8w=" visibility="public" source="AAAAAAFuT5SvYIJ3bQQ=" target="AAAAAAFuT5T09oKSRWU=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT5ZLZILY/CY=" visibility="public" source="AAAAAAFuT5T09oKSRWU=" target="AAAAAAFuT5WGKoKwZUU=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFuT5aHS4LpvSI=" visibility="public" source="AAAAAAFuT5LuX4IthJY=" target="AAAAAAFuT5RoxIJddkg=" xmi:type="uml:ControlFlow"/>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>
