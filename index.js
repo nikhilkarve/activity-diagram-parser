@@ -46,9 +46,6 @@ fs.readFile('file.json','utf-8',function(err,my_file){
             edges_array.push(temp[i]);
         }
 
-
-        var remove_elements = ['%5B','%5D','%20'];
-
         // console.log(node_array); this is our file node array which as all the nodes;
         // now we have to select only decision nodes in the node_array; lets traverse :-)
         for(var i=0;i<node_array.length;i++) {
