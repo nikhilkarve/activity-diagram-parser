@@ -1,0 +1,402 @@
+{
+	"XMI": {
+		"Documentation": {
+			"_exporter": "StarUML",
+			"_exporterVersion": "2.0",
+			"__prefix": "xmi"
+		},
+		"Model": {
+			"packagedElement": [
+				{
+					"_xmi:id": "AAAAAAFF+qBWK6M3Z8Y=",
+					"_name": "Model",
+					"_visibility": "public",
+					"_xmi:type": "uml:Model"
+				},
+				{
+					"groups": [
+						{
+							"node": [
+								{
+									"_xmi:id": "AAAAAAFuT3Oj6n987I8=",
+									"_name": "InitialNode1",
+									"_visibility": "public",
+									"_xmi:type": "uml:InitialNode"
+								},
+								{
+									"_xmi:id": "AAAAAAFuT3ULwn+ghQk=",
+									"_name": "Choose%20Account%20Type",
+									"_visibility": "public",
+									"_xmi:type": "uml:OpaqueAction",
+									"_isLocallyReentrant": "false",
+									"_isSynchronous": "true"
+								},
+								{
+									"_xmi:id": "AAAAAAFuT3lJtX/J3FI=",
+									"_name": "DecisionNode2",
+									"_visibility": "public",
+									"_xmi:type": "uml:DecisionNode"
+								},
+								{
+									"_xmi:id": "AAAAAAFuT3tgp4AY7m0=",
+									"_name": "Enter%20Amount",
+									"_visibility": "public",
+									"_xmi:type": "uml:OpaqueAction",
+									"_isLocallyReentrant": "false",
+									"_isSynchronous": "true"
+								},
+								{
+									"_xmi:id": "AAAAAAFuT3vf4YAzfDs=",
+									"_name": "Enter%20Amount",
+									"_visibility": "public",
+									"_xmi:type": "uml:OpaqueAction",
+									"_isLocallyReentrant": "false",
+									"_isSynchronous": "true"
+								}
+							],
+							"_xmi:id": "AAAAAAFuT3ATEn9RHGY=",
+							"_name": "User",
+							"_visibility": "public",
+							"_xmi:type": "uml:ActivityPartition"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT3JtjX9mmYQ=",
+							"_name": "ATM",
+							"_visibility": "public",
+							"_xmi:type": "uml:ActivityPartition"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT3LbBn9w0ws=",
+							"_name": "Bank",
+							"_visibility": "public",
+							"_xmi:type": "uml:ActivityPartition"
+						}
+					],
+					"node": [
+						{
+							"_xmi:id": "AAAAAAFuT3QBZn+BrUM=",
+							"_name": "DecisionNode1",
+							"_visibility": "public",
+							"_xmi:type": "uml:DecisionNode"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT30zKIBQr2Y=",
+							"_name": "DecisionNode2",
+							"_visibility": "public",
+							"_xmi:type": "uml:DecisionNode"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT31Ci4BVnHQ=",
+							"_name": "DecisionNode3",
+							"_visibility": "public",
+							"_xmi:type": "uml:DecisionNode"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT3+YfoCcVkk=",
+							"_name": "ActivityFinalNode1",
+							"_visibility": "public",
+							"_xmi:type": "uml:ActivityFinalNode"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT4Ase4C0j7A=",
+							"_name": "Amount%20Exceeds",
+							"_visibility": "public",
+							"_xmi:type": "uml:OpaqueAction",
+							"_isLocallyReentrant": "false",
+							"_isSynchronous": "true"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT4SPWoECjhU=",
+							"_name": "ActivityFinalNode2",
+							"_visibility": "public",
+							"_xmi:type": "uml:ActivityFinalNode"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT4VUEYEeZIc=",
+							"_name": "ActivityFinalNode3",
+							"_visibility": "public",
+							"_xmi:type": "uml:ActivityFinalNode"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT4hJ7YE6iwk=",
+							"_name": "Sufficient%20amount",
+							"_visibility": "public",
+							"_xmi:type": "uml:OpaqueAction",
+							"_isLocallyReentrant": "false",
+							"_isSynchronous": "true"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT45yF4F8ztk=",
+							"_name": "DecisionNode4",
+							"_visibility": "public",
+							"_xmi:type": "uml:DecisionNode"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT47ekoGU/oI=",
+							"_name": "error%20msg",
+							"_visibility": "public",
+							"_xmi:type": "uml:OpaqueAction",
+							"_isLocallyReentrant": "false",
+							"_isSynchronous": "true"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT5CFMYHWCBQ=",
+							"_name": "Appropriate%20balance%20in%20account",
+							"_visibility": "public",
+							"_xmi:type": "uml:OpaqueAction",
+							"_isLocallyReentrant": "false",
+							"_isSynchronous": "true"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT5F6m4IDadU=",
+							"_name": "DecisionNode5",
+							"_visibility": "public",
+							"_xmi:type": "uml:DecisionNode"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT5LuX4IthJY=",
+							"_name": "Update%20Amount",
+							"_visibility": "public",
+							"_xmi:type": "uml:OpaqueAction",
+							"_isLocallyReentrant": "false",
+							"_isSynchronous": "true"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT5RoxIJddkg=",
+							"_name": "Dispense%20Cash",
+							"_visibility": "public",
+							"_xmi:type": "uml:OpaqueAction",
+							"_isLocallyReentrant": "false",
+							"_isSynchronous": "true"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT5SvYIJ3bQQ=",
+							"_name": "Update%20ATM%20Log",
+							"_visibility": "public",
+							"_xmi:type": "uml:OpaqueAction",
+							"_isLocallyReentrant": "false",
+							"_isSynchronous": "true"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT5T09oKSRWU=",
+							"_name": "Print%20Receipt",
+							"_visibility": "public",
+							"_xmi:type": "uml:OpaqueAction",
+							"_isLocallyReentrant": "false",
+							"_isSynchronous": "true"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT5WGKoKwZUU=",
+							"_name": "ActivityFinalNode4",
+							"_visibility": "public",
+							"_xmi:type": "uml:ActivityFinalNode"
+						}
+					],
+					"edge": [
+						{
+							"_xmi:id": "AAAAAAFuT3TagX+Pb/Q=",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT3Oj6n987I8=",
+							"_target": "AAAAAAFuT3QBZn+BrUM=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT3piZ3/RnEI=",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT3Oj6n987I8=",
+							"_target": "AAAAAAFuT3Oj6n987I8=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT3qeyX/qMGs=",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT3Oj6n987I8=",
+							"_target": "AAAAAAFuT3ULwn+ghQk=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT3r0hIAGJis=",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT3ULwn+ghQk=",
+							"_target": "AAAAAAFuT3lJtX/J3FI=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT32e24BaaKw=",
+							"_name": "%5BSavings%20Account%5D",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT3lJtX/J3FI=",
+							"_target": "AAAAAAFuT3tgp4AY7m0=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT35eKoBx7LY=",
+							"_name": "%5BChecking%20Account%5D",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT3lJtX/J3FI=",
+							"_target": "AAAAAAFuT3vf4YAzfDs=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT39/NYCLFd8=",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT3tgp4AY7m0=",
+							"_target": "AAAAAAFuT30zKIBQr2Y=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT3+xrIChcug=",
+							"_name": "%5BCancel%5D",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT30zKIBQr2Y=",
+							"_target": "AAAAAAFuT3+YfoCcVkk=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT4BjXYDOkMw=",
+							"_name": "%5Bamt%20more%20than%2010000%5D",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT30zKIBQr2Y=",
+							"_target": "AAAAAAFuT4Ase4C0j7A=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT4RxZYDxbJk=",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT3vf4YAzfDs=",
+							"_target": "AAAAAAFuT31Ci4BVnHQ=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT4SmsYEHA78=",
+							"_name": "%5BCancel%5D",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT31Ci4BVnHQ=",
+							"_target": "AAAAAAFuT4SPWoECjhU=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT4WiuYEjdeE=",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT4Ase4C0j7A=",
+							"_target": "AAAAAAFuT4VUEYEeZIc=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT42NioFUsPQ=",
+							"_name": "Withdraw",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT31Ci4BVnHQ=",
+							"_target": "AAAAAAFuT4hJ7YE6iwk=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT43lIIFogFY=",
+							"_name": "amt%20greather%20than%2010000",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT30zKIBQr2Y=",
+							"_target": "AAAAAAFuT4hJ7YE6iwk=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT46T3YGC+k8=",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT4hJ7YE6iwk=",
+							"_target": "AAAAAAFuT45yF4F8ztk=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT48rcYGvU54=",
+							"_name": "Invalid",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT45yF4F8ztk=",
+							"_target": "AAAAAAFuT47ekoGU/oI=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT4/FyIHCVGY=",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT47ekoGU/oI=",
+							"_target": "AAAAAAFuT3ULwn+ghQk=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT5Ehj4HxJoc=",
+							"_name": "Valid",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT45yF4F8ztk=",
+							"_target": "AAAAAAFuT5CFMYHWCBQ=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT5GY/IIIfZY=",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT5CFMYHWCBQ=",
+							"_target": "AAAAAAFuT5F6m4IDadU=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT5JeuoIbDEQ=",
+							"_name": "amt%20greater%20than%20bal",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT5F6m4IDadU=",
+							"_target": "AAAAAAFuT47ekoGU/oI=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT5OS9IJJQOg=",
+							"_name": "amt%20less%20than%20bal",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT5F6m4IDadU=",
+							"_target": "AAAAAAFuT5LuX4IthJY=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT5YI5IK2Ekg=",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT5RoxIJddkg=",
+							"_target": "AAAAAAFuT5SvYIJ3bQQ=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT5Y1MoLHm8w=",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT5SvYIJ3bQQ=",
+							"_target": "AAAAAAFuT5T09oKSRWU=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT5ZLZILY/CY=",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT5T09oKSRWU=",
+							"_target": "AAAAAAFuT5WGKoKwZUU=",
+							"_xmi:type": "uml:ControlFlow"
+						},
+						{
+							"_xmi:id": "AAAAAAFuT5aHS4LpvSI=",
+							"_visibility": "public",
+							"_source": "AAAAAAFuT5LuX4IthJY=",
+							"_target": "AAAAAAFuT5RoxIJddkg=",
+							"_xmi:type": "uml:ControlFlow"
+						}
+					],
+					"_xmi:id": "AAAAAAFuT23ku39M5Hs=",
+					"_name": "Activity1",
+					"_visibility": "public",
+					"_isReentrant": "true",
+					"_xmi:type": "uml:Activity",
+					"_isReadOnly": "false",
+					"_isSingleExecution": "false"
+				}
+			],
+			"_xmi:id": "AAAAAAFva7zOLr35GQc=",
+			"_xmi:type": "uml:Model",
+			"_name": "RootModel",
+			"__prefix": "uml"
+		},
+		"_xmlns:uml": "http://schema.omg.org/spec/UML/2.0",
+		"_xmlns:xmi": "http://schema.omg.org/spec/XMI/2.1",
+		"_xmi:version": "2.1",
+		"__prefix": "xmi"
+	}
+}
